@@ -8,7 +8,7 @@ pipeline {
     stages{
         stage('checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/SnehaDevopsPractice/simple-java-app.git'
+                git branch: 'main', url: 'https://github.com/SnehaDevopsPractice/jenkins-shared-library.git'
             }
         }
         stage('build') {
